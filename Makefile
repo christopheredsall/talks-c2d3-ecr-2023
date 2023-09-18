@@ -5,4 +5,3 @@ all: talk.pdf
 
 %.pdf: %.md
 	$(PANDOC) --to=beamer --output=$@ $<
-
